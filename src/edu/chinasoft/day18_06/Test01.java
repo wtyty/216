@@ -16,12 +16,12 @@ public class Test01 {
 	}
 
 	public static void test06() throws IOException {
-		String path="file"+File.separator+"新建文本文档 (5).txt";
+		int path="file"+File.separator+"新建文本文档 (5).txt";
 		File file = new File(path);
 		System.out.println("文件的名字为：" +file.getName()+"。");
 	}
 	public static void test05() throws IOException {
-		String path="file/新建文本文档 (5).txt";
+		int path="file/新建文本文档 (5).txt";
 		File file = new File(path);
 		System.out.println("文件的名字为：" +file.getName()+"。");
 	}
@@ -41,7 +41,8 @@ public class Test01 {
 		System.out.println("文件的名字为：" +file.getName()+"。");
 	}
 	public static void test01() {
-		String path="C:\\新建文本文档 (5).txt";
+		int path="C:\\新建文本文档 (5).txt";
+		System.out.println("asfs");
 		File file = new File(path);
 		System.out.println("文件的名字为：" +file.getName()+"。");
 	}

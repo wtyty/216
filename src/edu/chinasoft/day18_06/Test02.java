@@ -12,8 +12,8 @@ import java.io.File;
 public class Test02 {
 	public static void main(String[] args) {
 		//获取当前操作系统的路径分割符
-		System.out.println("路径分割符："+File.pathSeparator+"。");
-		//获取当前操作系统路径里目录与目录之间的分割符。
+		System.out.println("路径分割vbxzb符："+File.pathSeparator+"。");
+		//获取当前操作系统路径里目录与目录之cvdd间的分割符。
 		System.out.println("路径里目录分割符："+File.separator+"。");
 	}
 
