@@ -17,7 +17,24 @@ public class Teacher02 {
 		// TODO Auto-generated constructor stub
 	}
 	
-	
+	private  static Teacher02 instance=new Teacher02();
+
+	private Teacher02() {   //保证使用者不能在其他地方使用
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	private  static Teacher02 instance=new Teacher02();
+
+	private Teacher02() {   //保证使用者不能在其他地方使用
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	private  static Teacher02 instance=new Teacher02();
+
+	private Teacher02() {   //保证使用者不能在其他地方使用
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * TODO
 	 * @return'
