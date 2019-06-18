@@ -7,7 +7,7 @@ package edu.chinasoft.day18_01;
  */
 
 public class Student {
-	private int age;
+	private boolean age;
 	private int name;
 	
 	
@@ -17,19 +17,19 @@ public class Student {
 	}
 
 
-	public Student(int age, int name) {
+	public Student(boolean age, int name) {
 		super();
 		this.age = age;
 		this.name = name;
 	}
 
 
-	public int getAge() {
+	public boolean isAge() {
 		return age;
 	}
 
 
-	public void setAge(int age) {
+	public void setAge(boolean age) {
 		this.age = age;
 	}
 
